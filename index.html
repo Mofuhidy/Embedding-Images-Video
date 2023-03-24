@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube clone</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +18,7 @@
     <header>
         <div class="left-section">
             <i class="material-icons logo">menu</i>
-            <img src="./images/ytLogo.png" alt="">
+            <img src="./images/youtube-logo.png" alt="">
         </div>
 
         <div class="mid-section">
@@ -24,7 +27,9 @@
                 <button>
                     <i class="material-icons">search</i>
                 </button>
-                <i class="material-icons">mic</i>
+                <div class="mic">
+                    <i class="material-icons ">mic</i>
+                </div>
             </form>
         </div>
         <div class="right-section">
@@ -35,6 +40,126 @@
         </div>
     </header>
 
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-vid">
+                <iframe src="https://www.youtube.com/embed/lJIrF4YjHfQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div class="v-tags">
+                    <a href="">#Programming</a>
+                    <a href="">#Designing</a>
+                </div>
+                <h3>Build Youtube clone using HTML & CSS</h3>
+                <div class="play-info">
+                    <!-- <p>5k views &bull; 1 day ago</p> -->
+                    <div class="channel">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div class="">
+                            <p>MoFuhidy</p>
+                            <span>90k Subscirbers</span>
+                        </div>
+                        <button type="button">Subscribe</button>
+                    </div>
+                    <div>
+                        <a href="">
+                            <span class="material-icons-outlined like">
+                                thumb_up
+                            </span>
+                            <p class="k">1.3k</p>
+                            <span class="material-icons-outlined dislike">
+                                thumb_down
+                            </span>
+                        </a>
+                        <!-- <a href="">
+
+                        </a> -->
+                        <a href="">
+                            <span class="material-icons-outlined">
+                                reply
+                            </span>
+                            <p>Share</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="description">
+                    <div class="description-inner">
+                        <div class="info-container">
+                            <span>511K views</span>
+                            <span>6 years ago</span>
+                        </div>
+                        <div class="moreInfo">
+                            <span>
+                                To learn more
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-sidebar">
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video1.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video2.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video3.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video4.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video5.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video7.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+                <div class="side-list">
+                    <a href="#" class="small-size"><img src="./images/video8.jpeg" class="thumbnail" alt=""></a>
+                    <div class="video-info">
+                        <a href="#">Build Youtube clone</a>
+                        <p>MoFuhidy</p>
+                        <p>9.2k views &bull; 1 day ago</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
 
 </body>
 
