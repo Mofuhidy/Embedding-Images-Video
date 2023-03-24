@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  padding: 0 16px;
+}
+
+.ytd-logo {
+  display: block;
+  height: 20px;
+  width: 90px;
+  padding: 18px 14px 18px 16px;
+  color: #fff;
+}
